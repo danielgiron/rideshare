@@ -127,7 +127,35 @@ h2 {
 
 .footer__text {
     position: relative;
-    color: #474747;
+    color: #47474755;
     font-size: smaller;
     left: 50%;
 }
+
+.entryfield__container {
+    position: absolute;
+    background-color: #e7e7e788;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    line-height: 2;
+    width: 300px;
+    justify-content: space-around;
+    left: 600px;
+}
+
+input[type=text], .pass__select /*, select */{
+    position: relative;
+    margin-left: 50px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: #ffd0007c;
+    padding: 5px;
+    float: right;
+}
+
+.pass__select select {
+    display: none;
+}
+
