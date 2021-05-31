@@ -1,5 +1,5 @@
 body {
-    background: #ffffff url(./images/bg.JPG) no-repeat;
+    background: #ffffff url(./images/bg2.png) no-repeat;
     background-size: cover;
 }
 
@@ -30,6 +30,7 @@ a:hover {
     position: relative;
     margin: 15px;
     opacity: .8;
+    left:1.5rem;
 }
 
 .navbar__menu {
@@ -39,6 +40,7 @@ a:hover {
     list-style: none;
     justify-content: flex-end;
     width: 60%;
+    min-width: 400px;
     float: right;
    
     
@@ -75,7 +77,9 @@ h2 {
 .intro__container {
     position: relative;
     top: 200px;
-    max-width: 600px;
+    max-width: 500px;
+    left:1.5rem;
+    margin: 20px;
 }
 
 .content__container {
@@ -86,7 +90,7 @@ h2 {
     background-color: #f3f3f3;
     transform: translateX(-8px);
     height: 50%;
-
+    min-width: 1000px;
 }
 
 .firstblock {
@@ -94,7 +98,7 @@ h2 {
     left: 1.5rem;
     color: #474747;
     width: 300px;
-    margin: 25px;
+    padding: 25px;
 }
 
 .secondblock {
@@ -102,22 +106,28 @@ h2 {
     left: 1.5rem;
     color: #474747;
     width: 300px;
-    margin: 25px;
+    padding: 25px;
+    background-color: #e6e6e6;
 }
 
 #car {
-    width: 300px;
-    height: 250px;
-    margin: 0
-    px 25px;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    padding: 0px;
 }
 
 .footer__container {
     position: absolute;
+    left: 0%;
     width: 100%;
-    color: #474747;
     background-color: #ffffff;
     bottom: 0%;
+}
+
+.footer__text {
+    position: relative;
+    color: #474747;
     font-size: smaller;
-    
+    left: 50%;
 }
